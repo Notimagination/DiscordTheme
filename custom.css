@@ -40,23 +40,6 @@ svg.circleIcon_db6521 {
     color: var(--brand-experiment) !important;
 }
 
-.circleIconButton_db6521.selected_db6521 {
-    background-color: var(--brand-experiment-hover) !important;
-}
-
-::placeholder,
-body,
-button,
-input,
-select,
-textarea {
-    font-family: var(--font);
-}
-
-.membersGroup_cbd271 {
-    margin-bottom: 10px;
-}
-
 rect.pointerEvents_c51b4e {
     x: 22 !important;
     y: 1 !important;
