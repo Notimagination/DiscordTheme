@@ -79,8 +79,9 @@
   --unread-bar-transition: 0.2s ease; /* unread bar moving into view transition */
   --moon-spin-transition: 0.4s ease; /* moon icon spin */
   --icon-spin-transition: 1s ease; /* round icon button spin (settings, emoji, etc.) */
-    
+	
 }
+
 :root:has(#vencord-native-titlebar-style), :root:not(:has(.typeWindows_a934d8)) {
   --content-full-height: calc(100vh - var(--app-card-top-margin) - var(--textarea-margin));
 }
@@ -122,6 +123,50 @@ button.button_f67531 /* make user panel buttons round */ {
 	--moon-spin-transition: none;
 	--icon-spin-transition: none;
 }
+
+
+
+
+/* custom dm button moon icon */
+.childWrapper_f90abb > svg:not(.favoriteIcon_dcc7a4) {
+	display: var(--discord-icon);
+}
+.childWrapper_f90abb:has(> svg:not(.favoriteIcon_dcc7a4))::before {
+	content: '';
+	display: var(--moon-icon);
+	position: absolute;
+	width: 65%;
+	height: 65%;
+	background: var(--text-4);
+	-webkit-mask-image: var(--moon-icon-url);
+	-webkit-mask-size: var(--moon-icon-size);
+	-webkit-mask-repeat: none;
+}
+.wrapper_f90abb:hover .childWrapper_f90abb::before {
+	/* prettier-ignore */
+	transition: background-color 0.15s ease-out, transform var(--moon-spin-transition);
+	transform: rotate(0deg) scale(1);
+}
+.wrapper_f90abb:hover > .childWrapper_f90abb::before,
+.wrapper_f90abb.selected_f90abb > .childWrapper_f90abb::before {
+	background: var(--text-0);
+	transform: rotate(-360deg) scale(0.8);
+}
+.lowerBadge_c5f96a::before {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	transform: translate(-4px, -4px);
+	z-index: -1;
+	background: var(--bg-3);
+	border-radius: 50%;
+}
+
+
+
+
 
 .appMount_ea7e65 {
   --app-search-bar-margin: calc( (var(--app-search-bar-height) + 22px) / 2 );
