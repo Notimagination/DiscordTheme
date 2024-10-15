@@ -36,33 +36,6 @@
     background-color: var(--background-secondary) !important;
 }
 
-svg.circleIcon_db6521 {
-    color: var(--brand-experiment) !important;
-}
-
-rect.pointerEvents_c51b4e {
-    x: 22 !important;
-    y: 1 !important;
-    height: 10px;
-    width: 10px;
-}
-
-.mask-1FEkla circle {
-    display: none;
-}
-
-.wrapper_a71a1c {
-    border: 3px solid var(--background-secondary);
-}
-
-.membersWrap_cbd271 {
-    min-height: 100% !important;
-}
-
-.option-2KkUJO::after {
-    background: transparent !important;
-}
-
 .react-datepicker,
 .react-datepicker__header,
 .react-datepicker__day--disabled,
