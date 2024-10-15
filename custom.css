@@ -628,20 +628,3 @@ code {
 .roleContainer-WStCpt {
     background: transparent !important;
 }
-
-.callContainer_ed4410 .content-2a4AW9 {
-    background-color: transparent !important;
-}
-
-#MemberCount,
-#MemberCount .membersGroup_cbd271 {
-    background-color: var(--background-primary) !important;
-}
-
-.header-2Kx1US.ChannelDms-channelmembers-header.topPill-3DJJNV {
-    background: var(--background-primary) !important;
-}
-
-.bannerSVGWrapper-qc0szY mask {
-    display: none;
-}
