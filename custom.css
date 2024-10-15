@@ -347,9 +347,9 @@ h3.title-1_TkpU.fontDisplay-3Gtuks.base_d0da3e.size24_fb468f,
     top: 13px;
 }
 
-/*.activity_a31c43 .icon_ad923e {
+.activity_a31c43 .icon_ad923e {
     color: #cfd3da;
-}*/
+}
 
 .link_d8bfb3:hover::before {
     content: "";
