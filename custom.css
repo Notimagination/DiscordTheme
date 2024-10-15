@@ -556,29 +556,11 @@ code {
     font-family: var(--code-font);
 }
 
-.avatar_e9f61e,
-.wrapper-1VLyxH,
-.avatar-2Vndt_,
-.wrapper-1VLyxH,
-.avatar-b5OQ1N,
-.avatar_f9f2ca,
-.avatar_cdc675 {
-    border-radius: 0 !important;
-}
-
 .replyBar_b11c5e,
 .clipContainer_b11c5e {
     background: var(--background-primary);
 }
 
-.avatarHint_f89da9 foreignObject {
-    mask: unset;
-    border-radius: 0 !important;
-}
-
-.avatarHintInner_f89da9 {
-    border-radius: 0 !important;
-}
 
 .imageWrapper__178ee {
     border-radius: 20px;
@@ -696,16 +678,6 @@ code {
 }
 
 .userPopout-2j1gM4 .wrapper-1VLyxH::before,
-.avatar-3QF_VA::before {
-    content: " ";
-    font-size: 0px;
-    background-color: var(--background-floating);
-    float: left;
-    border-radius: 0 !important;
-    height: 94px;
-    width: 94px;
-    margin: -7px;
-}
 
 .avatar-3QF_VA::before {
     height: 136px;
