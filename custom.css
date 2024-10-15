@@ -2,7 +2,7 @@
     --version: "1.0.7";
 }
 
-.embedThumbnail_b0068a {
+/*.embedThumbnail_b0068a {
     border-radius: 4px !important;
 }
 
@@ -20,7 +20,7 @@ rect.pointerEvents_c51b4e {
     mask: none;
     ry: 4px;
     rx: 4px;
-}
+}*/
 
 /*.svg-2azL_l > svg > rect {
     mask: unset;
@@ -33,7 +33,7 @@ rect.pointerEvents_c51b4e {
     z-index: 9;
 }*/
 
-.container_b2ca13 .avatar_b2ca13.wrapper-1VLyxH * {
+/*.container_b2ca13 .avatar_b2ca13.wrapper-1VLyxH * {
     overflow: visible;
 }
 
@@ -74,7 +74,7 @@ svg.cursorDefault--wfhy5 {
 
 [mask="url(#svg-mask-status-online-mobile)"] {
     height: 15px !important;
-}
+}*/
 
 [class^="socialLinks-"] + [class^="info-"] > span:first-child::before {
     content: "Ultra " var(--version);
