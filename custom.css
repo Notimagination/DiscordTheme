@@ -2,52 +2,6 @@
     --version: "1.0.7";
 }
 
-.container_eedf95 {
-    background-color: var(--background-primary) !important;
-}
-
-.wrapper-1VLyxH foreignObject:not(rect.pointerEvents_c51b4e) {
-    mask: unset;
-}
-
-#app-mount .lowerBadge-3WTshO {
-    border-radius: 20% !important;
-}
-
-.numberBadge__40d6f::before {
-    content: "";
-    position: absolute;
-    top: -4px;
-    right: -5px;
-    width: 25px;
-    height: 25px;
-    border-radius: 25%;
-    background: var(--background-tertiary);
-    z-index: -1;
-}
-
-.selected_ae3c77 .colorInteractiveNormal_fbc755,
-.selected_ae3c77 .colorInteractiveActive_fbc755 {
-    color: var(--background-secondary) !important;
-}
-
-.container-2FjuQ5,
-.footer-3ie9JP,
-.footer-31IekZ {
-    background-color: #101014 !important;
-}
-
-.pageWrapper_a3a4ce {
-    background-color: var(--background-primary) !important;
-}
-
-.container-x8Y1ix {
-    background: #17161b !important;
-}
-
-.UserBackgrounds-banner-badge {
-    display: none;
-}
 
 h3.title-1_TkpU.fontDisplay-3Gtuks.base_d0da3e.size24_fb468f,
 .title-1_TkpU,
