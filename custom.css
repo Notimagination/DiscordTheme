@@ -6,33 +6,6 @@
     border-radius: 4px !important;
 }
 
-.animatedContainer_fd6364,
-.bannerImage_fd6364 {
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-
-rect.pointerEvents_c51b4e {
-    stroke: var(--background-primary);
-    stroke-width: 2px;
-    mask: none;
-    ry: 4px;
-    rx: 4px;
-}
-
-.svg-2azL_l > svg > rect {
-    mask: unset;
-    width: 10px;
-    height: 10px;
-    x: 7.5 !important;
-    y: -17 !important;
-    rx: 4px;
-    ry: 4px;
-    z-index: 9;
-}
-
 .container_b2ca13 .avatar_b2ca13.wrapper-1VLyxH * {
     overflow: visible;
 }
