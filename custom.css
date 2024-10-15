@@ -80,12 +80,11 @@
   --moon-spin-transition: 0.4s ease; /* moon icon spin */
   --icon-spin-transition: 1s ease; /* round icon button spin (settings, emoji, etc.) */
 
-		/* direct messages moon icon */
-	/* change to block to show, none to hide */
-	--discord-icon: none; /* discord icon */
-	--moon-icon: block; /* moon icon */
-	--moon-icon-url: url('https://upload.wikimedia.org/wikipedia/commons/c/c4/Font_Awesome_5_solid_moon.svg'); /* custom icon url */
-	--moon-icon-size: auto;
+/* DIRECT MESSAGE CUSTOM ICON */
+  --discord-icon: none; /* discord icon */
+  --moon-icon: block;
+  --moon-icon-url: url('https://png.pngtree.com/element_our/20190530/ourmid/pngtree-correct-icon-image_1267804.jpg'); /* custom icon url */
+  --moon-icon-size: auto;
 	
 }
 
@@ -130,6 +129,54 @@ button.button_f67531 /* make user panel buttons round */ {
 	--moon-spin-transition: none;
 	--icon-spin-transition: none;
 }
+
+
+
+/* hide unread bar on hover */
+.messagesWrapper_e2e187 {
+	overflow: hidden;
+}
+.newMessagesBar_cf58b5 {
+	top: -48px;
+	height: 72px;
+	transition: top var(--unread-bar-transition);
+	background: none;
+	box-shadow: none;
+	border-radius: 0;
+}
+.newMessagesBar_cf58b5::before {
+	content: '';
+	background: var(--accent-3);
+	box-shadow: var(--elevation-low);
+	width: 100%;
+	position: absolute;
+	height: 32px;
+	border-radius: var(--roundness-s);
+}
+.newMessagesBar_cf58b5:hover {
+	top: -12px;
+}
+.top_eba0ba > .containerPadding_eba0ba {
+	padding: 16px;
+	margin-top: -40px;
+	transition: margin-top var(--unread-bar-transition);
+}
+.top_eba0ba:hover > .containerPadding_eba0ba:hover {
+	margin-top: -12px;
+}
+.bottom_eba0ba > .containerPadding_eba0ba {
+	padding: 16px;
+	margin-bottom: -40px;
+	transition: margin-bottom var(--unread-bar-transition);
+}
+.bottom_eba0ba > .containerPadding_eba0ba:hover {
+	margin-bottom: -12px;
+}
+
+
+
+
+
 
 
 
