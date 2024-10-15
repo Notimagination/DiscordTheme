@@ -573,11 +573,11 @@ code {
 
 .avatarHint_f89da9 foreignObject {
     mask: unset;
-    border-radius: 35% !important;
+    border-radius: 0 !important;
 }
 
 .avatarHintInner_f89da9 {
-    border-radius: 35% !important;
+    border-radius: 0 !important;
 }
 
 .imageWrapper__178ee {
@@ -701,7 +701,7 @@ code {
     font-size: 0px;
     background-color: var(--background-floating);
     float: left;
-    border-radius: 50%;
+    border-radius: 0 !important;
     height: 94px;
     width: 94px;
     margin: -7px;
@@ -719,6 +719,6 @@ code {
 }
 
 .mask_c51b4e > foreignObject {
-    border-radius: 38%;
+    border-radius: 0 !important;
     mask: unset;
 }
