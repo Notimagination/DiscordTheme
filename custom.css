@@ -2,55 +2,6 @@
     --version: "1.0.7";
 }
 
-.selected_ae3c77 {
-    background-color: var(--brand-experiment) !important;
-}
-
-[class^="socialLinks-"] + [class^="info-"] > span:first-child::before {
-    content: "Ultra " var(--version);
-    position: relative;
-    top: 0px;
-    display: block;
-}
-
-.scroller_f2bfbb {
-    background-color: var(--background-secondary) !important;
-}
-
-.container_f2bfbb,
-.reactors_f2bfbb {
-    background-color: var(--background-primary) !important;
-}
-
-.tabs-1RhQha {
-    border-bottom: none !important;
-}
-
-.headerText_c1d9fd .overflow_c74e70 {
-    text-transform: uppercase !important;
-    font-weight: 700 !important;
-    font-size: 12px;
-}
-
-#popout_45 {
-    background-color: var(--background-secondary) !important;
-}
-
-.react-datepicker,
-.react-datepicker__header,
-.react-datepicker__day--disabled,
-.react-datepicker__day {
-    background-color: var(--background-primary) !important;
-}
-
-.react-datepicker__day:hover:not(.react-datepicker__day--disabled) {
-    background-color: var(--brand-experiment) !important;
-}
-
-.queryContainer_eedf95 {
-    background-color: var(--background-secondary) !important;
-}
-
 .container_eedf95 {
     background-color: var(--background-primary) !important;
 }
