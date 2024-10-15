@@ -645,21 +645,3 @@ code {
 .bannerSVGWrapper-qc0szY mask {
     display: none;
 }
-
-.userPopout-2j1gM4 .wrapper-1VLyxH::before,
-
-.avatar-3QF_VA::before {
-    height: 136px;
-    width: 136px;
-    margin: -8px;
-}
-
-.userPopout-2j1gM4 [class^="avatarWrapper"] .wrapper-1VLyxH,
-.avatarHint_f89da9 {
-    top: 9px;
-}
-
-.mask_c51b4e > foreignObject {
-    border-radius: 0 !important;
-    mask: unset;
-}
