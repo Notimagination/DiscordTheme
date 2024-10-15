@@ -31,62 +31,6 @@ h3.title-1_TkpU.fontDisplay-3Gtuks.base_d0da3e.size24_fb468f,
     background-color: var(--background-primary) !important;
 }
 
-.lookInverted-2D7oAl .contents-3ca1mk {
-    color: black !important;
-}
-
-.scrollerBase-289Jih::-webkit-scrollbar,
-.scrollerBase-_bVAAt::-webkit-scrollbar {
-    display: none !important;
-}
-
-#app-mount .numberBadge__40d6f {
-    background-color: var(--brand-experiment) !important;
-    color: white;
-    border-radius: 20% !important;
-}
-
-.link_d8bfb3 {
-    overflow: visible;
-}
-
-.modeSelected_d8bfb3 .link_d8bfb3,
-.modeSelected_d8bfb3:hover .link_d8bfb3,
-.link_d8bfb3:hover {
-    background: transparent !important;
-}
-
-.link_d8bfb3 {
-    width: calc(100% - 12px) !important;
-}
-
-.link_d8bfb3,
-.link_d8bfb3:hover {
-    display: inline-block;
-    padding: 6px 8px;
-}
-
-.modeMuted_d8bfb3 .name_d8bfb3 {
-    color: #2b2b2b;
-}
-
-.modeSelected_d8bfb3 .link_d8bfb3::before {
-    content: "";
-    display: block;
-    position: absolute;
-    background-color: var(--selected-indicator);
-    box-shadow: 0 0 20px 4px var(--selected-indicator);
-    border-radius: 50%;
-    width: 5px;
-    height: 5px;
-    left: -9px;
-    top: 13px;
-}
-
-.activity_a31c43 .icon_ad923e {
-    color: #cfd3da;
-}
-
 .link_d8bfb3:hover::before {
     content: "";
     display: block;
