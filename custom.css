@@ -102,14 +102,6 @@ svg.cursorDefault--wfhy5 {
     top: 0px;
 }
 
-.profileBadges_f89da9 {
-    justify-content: center;
-    position: relative;
-    max-width: 100%;
-    right: 0px;
-    top: 0px;
-}
-
 .tabs-1RhQha {
     border-bottom: none !important;
 }
@@ -174,13 +166,6 @@ rect.pointerEvents_c51b4e {
 
 .mask-1FEkla circle {
     display: none;
-}
-
-.accountProfileCard_b69b77 rect.pointerEvents_c51b4e {
-    x: 70 !important;
-    y: 1 !important;
-    height: 15px;
-    width: 15px;
 }
 
 .wrapper_a71a1c {
@@ -600,13 +585,7 @@ code {
     display: none;
 }
 
-.userPopoutOuter-3AVBmJ rect.pointerEvents_c51b4e,
-.profilePanel-2PWEok rect.pointerEvents_c51b4e {
-    x: 66 !important;
-    y: 66 !important;
-    height: 15px;
-    width: 15px;
-}
+
 
 .layer-1Ixpg3 rect.pointerEvents_c51b4e {
     x: 120 !important;
